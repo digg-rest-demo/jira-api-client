@@ -1,0 +1,8 @@
+{
+    "modelPackage": "se.phaseshift.jira.rest.client.model",
+    "apiPackage": "se.phaseshift.jira.rest.client.api",
+    "invokerPackage": "se.phaseshift.jira.rest.client",
+    "groupId": "se.phaseshift.jira.rest",
+    "artifactId": "jira-client"
+}
+
