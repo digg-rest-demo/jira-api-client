@@ -6,31 +6,18 @@
   <packaging>jar</packaging>
   <name>jira-client</name>
   <version>1.0.0</version>
-  <url>https://github.com/swagger-api/swagger-codegen</url>
-  <description>Swagger Java</description>
-  <scm>
-    <connection>scm:git:git@github.com:swagger-api/swagger-codegen.git</connection>
-    <developerConnection>scm:git:git@github.com:swagger-api/swagger-codegen.git</developerConnection>
-    <url>https://github.com/swagger-api/swagger-codegen</url>
-  </scm>
+  <url>https://github.com/</url>
+  <description>PhaseShift Jira REST API library</description>
   <prerequisites>
     <maven>2.2.0</maven>
   </prerequisites>
 
-  <licenses>
-    <license>
-      <name>Unlicense</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
   <developers>
     <developer>
-      <name>Swagger</name>
-      <email>apiteam@swagger.io</email>
-      <organization>Swagger</organization>
-      <organizationUrl>http://swagger.io</organizationUrl>
+      <name>Erik Ytterman</name>
+      <email>info@phaseshift.se</email>
+      <organization>PhaseShift Consulting AB</organization>
+      <organizationUrl>http://phaseshift.se</organizationUrl>
     </developer>
   </developers>
 

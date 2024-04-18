@@ -1582,7 +1582,19 @@ public class ProjectsApi {
      * @return PageBeanProject
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public PageBeanProject searchProjects(Long startAt, Integer maxResults, String orderBy, List<Long> id, List<String> keys, String query, String typeKey, Long categoryId, String action, String expand, List<String> status, List<StringList> properties, String propertyQuery) throws ApiException {
+    public PageBeanProject searchProjects(Long startAt,
+                                          Integer maxResults,
+                                          String orderBy,
+                                          List<Long> id,
+                                          List<String> keys,
+                                          String query,
+                                          String typeKey,
+                                          Long categoryId,
+                                          String action,
+                                          String expand,
+                                          List<String> status,
+                                          List<StringList> properties,
+                                          String propertyQuery) throws ApiException {
         ApiResponse<PageBeanProject> resp = searchProjectsWithHttpInfo(startAt, maxResults, orderBy, id, keys, query, typeKey, categoryId, action, expand, status, properties, propertyQuery);
         return resp.getData();
     }
